@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images.jpeg)
+    no-repeat bottom right #58a;
+    height: 100vh;
+    min-width: 100%;
+
+}
+
+.frame{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    justify-content: space-between;
+    vertical-align: middle;
+    box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4, 0 0 200px #03e9f4;
+}
+.text{
+    border: black 2px solid;
+    background: white;
+    text-align: center;
+    color: black;
+    height: 100px;
+    margin: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px 5px  #655;
+}
+.text1{
+    border: black 2px solid;
+    background: white;
+    glyph-orientation-horizontal: 50deg;
+    text-align: center;
+    color: black;
+    margin: 20px;
+    height: 100px;
+    margin-top: 50px;
+    box-shadow: 0 0 0 5px  #655,0 0 0 10px  #ff9e26,0 0 0 15px  #fa5e67;
+}
+.anotherFrame{
+    background: url(images.jpeg)
+    no-repeat bottom right #58a;
+}
