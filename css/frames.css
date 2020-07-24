@@ -42,3 +42,16 @@ body{
     background: url(images.jpeg)
     no-repeat bottom right #58a;
 }
+.imageBorder{
+    background: url(./../images/cone.jpg);
+    padding: 1em;
+    background-size: cover;   
+}
+
+.imageBorder > div{
+    background: white;
+    padding: 1em;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: x-large;
+}
