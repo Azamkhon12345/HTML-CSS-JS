@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"> </script>
+</head>
+<body>
+    <header class="wow fadeIn">
+        <h1>
+            <div class="title wow fadeInDown">Animate</div>
+            <div class="subtitle wow fadeInUp">On Scroll</div>
+        </h1>
+    </header>
+    <section>
+        <h1>
+            <b>Roll</b> Animation <br>
+            <div class="box wow rollIn" ></div>
+            <div class="box wow rollIn" style=""></div>
+            <div class="box wow rollIn" style=""></div>
+        </h1>
+    </section>
+    <section>
+        <h1>
+            <b>Flip</b> Animation <br>
+            <div class="box wow flip" ></div>
+            <div class="box wow flip" style=""></div>
+            <div class="box wow flip" style=""></div>
+        </h1>
+    </section>
+    <section>
+        <h1>
+            <b>Fade</b> Animation <br>
+            <div class="box wow fadeIn" ></div>
+            <div class="box wow fadeIn" style="animation-delay: 300ms;"></div>
+            <div class="box wow fadeIn" style="animation-delay: 600ms;"></div>
+        </h1>
+    </section>
+    <section>
+        <h1>
+            <b>Rotate</b> Animation <br>
+            <div class="box wow rotateIn" ></div>
+            <div class="box wow rotateIn" style=""></div>
+            <div class="box wow rotateIn" style=""></div>
+        </h1>
+    </section>
+    <section>
+        <h1>
+            <b>Zoom</b> Animation <br>
+            <div class="box wow zoomIn" ></div>
+            <div class="box wow zoomIn" style=""></div>
+            <div class="box wow zoomIn" style=""></div>
+        </h1>
+    </section>
+    <script >
+    wow = new WOW(
+   {
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // change this if you are not using animate.css
+    offset:       0,          // default
+    mobile:       true,       // keep it on mobile
+    live:         true        // track if element updates
+   }
+  )
+   wow.init();</script>
+</body>
+</html> 
